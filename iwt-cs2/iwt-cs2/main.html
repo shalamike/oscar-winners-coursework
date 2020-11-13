@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        <form action="clientside.php" method="post">
+            Select Winners and losers
+            <fieldset>
+                Oscar Winners<input type="radio" name="did_they_win" value="yes" autocomplete="no">
+                Oscar Losers <input type="radio" name="did_they_win" value="no" autocomplete="no">
+                All Nominees<input type="radio" name="did_they_win" value="all" autocomplete="no" checked>
+                <input type="submit" name="make_table" value="generate table" autocomplete="no">
+            </fieldset>
+            Select: Year, Category, Info and Nominee
+            <fieldset>
+                Year
+                <input type="text" name ="year" id ="year" value="" autocomplete="yes">
+                Category
+                <input type="text" name ="category" id="category" value="" autocomplete="yes">
+                Nominee
+                <input type="text" name ="nominee" id="nominee" value="" autocomplete="yes">
+                Info
+                <input type="text" name ="info" id="info" value="" autocomplete="yes">
+            </fieldset>
+        </form>
+</body>
+</html>
